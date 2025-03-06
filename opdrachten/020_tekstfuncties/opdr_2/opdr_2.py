@@ -4,7 +4,6 @@
 
 # Hier komt je code...
 
-my_list = str
 sentence = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"
 count_t = sentence.count('t')
 

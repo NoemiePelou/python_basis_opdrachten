@@ -14,7 +14,7 @@ print(a)
 # en toon de volgende zin op het scherm: Albert Einstein zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!'
 voornaam = "albert"
 achternaam = "einstein"
-fullname = "{voornaam}  {achternaam}"
+fullname = "{} {}".format(voornaam,achternaam)
 b = "'zei ooit: Als je niks fout doet, dan kun je ook niks leren!'"
 
 zin = {fullname.title() + b } 

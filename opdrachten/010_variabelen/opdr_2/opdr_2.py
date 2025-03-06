@@ -4,10 +4,8 @@
 
 # Hier komt je code...
 
-my_tuple = tuple
-a = 11
-b = "Oh een tuple"
-c = 13.5
-d = 8009
-print (a + str(b) + str(c) + d)
+my_tuple = (11, "Oh een tuple", 13.5, 8009)
+
+# Print de tuple
+print(my_tuple)
 

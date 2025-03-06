@@ -4,11 +4,15 @@
 
 # Hier komt je code...
 
-my_list = list
 a = 13
-b = "Wat een weertje"
+b = "wat een weertje"
 c = 12.5
 d = 8
-print(a + str(b) + str(c) + d)
 
+my_list = []
+my_list.append(a)
+my_list.append(b)
+my_list.append(c)
+my_list.append(d)
 
+print(my_list)

@@ -13,4 +13,4 @@ for _ in range(5):
     print("    ***")
     print("    ***")
     print("    ***")
-    print()  # Adding an empty line between each copy of the image
+    print()
