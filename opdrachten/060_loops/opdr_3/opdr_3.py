@@ -6,4 +6,11 @@
 
 # Hier start de for-loop
 
-my_list = []
+output = []
+
+for i in range(3, 82, 3):
+    squared = i ** 2  
+    divided = squared / 3  
+    output.append(divided)  
+
+print(output)

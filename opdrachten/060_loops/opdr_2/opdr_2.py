@@ -6,5 +6,7 @@
 
 # Hier start de for-loop
 
-my_list = []
+for i in range(10,60,10):
+    print(i)
+
 
