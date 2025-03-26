@@ -6,7 +6,11 @@
 
 # Hier start de for-loop....
 
-my_list = []
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for getal in range(1, 11):
+    my_list.append(getal)
 
-#for loop
-#if statement
+# Print alleen de getallen die groter zijn dan 4
+for getal in my_list:
+    if getal > 4:
+        print(getal)
