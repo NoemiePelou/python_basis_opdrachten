@@ -3,18 +3,18 @@
 # Groep:
 
 
-def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+import math
 
-def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+#Bereken het vulme van een kubus
+def kubus_vol(zijde):
+    return zijde ** 3
 
-zijde = 5
-radius = 4
+#Bereken het volume van een bol
+def bol_vol(straal):
+    return (4/3) * math.pi * (straal ** 3)
 
-print(kubus_vol(5))
-print(bol_vol(4))
+kubus_volume = kubus_vol(5)
+bol_volume = bol_vol(4)
+
+print(f"De inhoud van deze kubus is: {kubus_volume}")
+print(f"De inhoud van deze bol is: {bol_volume}")

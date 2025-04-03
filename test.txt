@@ -1,0 +1,8 @@
+Schrijf dit maar even in een bestandje
+{kilometers} kilometers = {miles_converted} miles
+{miles} miles = {km_converted} kilometers
+1223 kilometers = 759.9369681062594 miles
+867 miles = 1395.301248 kilometers
+1223 kilometers = 759.9369681062594 miles
+867 miles = 1395.301248 kilometers
+Schrijf dit maar even in een bestandje
